@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+    margin: 0px;
+}
+
+
+h1{
+    text-align: center;
+}
+
+/* Parent container*/
+.flexbox-container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+/* children till flexbox-container*/
+.flex-item{ 
+    background-color: rgb(163, 10, 10);
+    height: 16rem;
+    width: 16rem;
+    border-radius: 100%;
+    
+}
+
+.menu-easy{
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 30px;
+}
+
+.menu{
+    background-color: white;
+
+}
+
