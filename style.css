@@ -2,13 +2,45 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(255, 255, 255);
     margin: 0px;
+    padding: 10%;
 }
 
-.dice dots-6{
+.dice{
     display: grid;
-    grid-column: 3 / 4;
-    grid-row: 1 / 2;
-    background-color: aqua;
-    border: black;
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: repeat(5, 100px);
+    grid-gap: 10px;
 }
 
+.item1 {
+    grid-column: 2;
+    grid-row: 2;
+    background-color: rgb(0, 0, 0);
+    border-radius: 100%;
+}
+
+.item2 {
+    grid-column: 4;
+    grid-row: 2;
+    background-color: rgb(0, 0, 0);
+    border-radius: 100%;
+}
+
+.item3 {
+    grid-column: 3;
+    grid-row: 3;
+    background-color: rgb(0, 0, 0);
+    border-radius: 100%;
+}
+.item4 {
+    grid-column: 2;
+    grid-row: 4;
+    background-color: rgb(0, 0, 0);
+    border-radius: 100%;
+}
+.item5 {
+    grid-column: 4;
+    grid-row: 4;
+    background-color: rgb(0, 0, 0);
+    border-radius: 100%;
+}
