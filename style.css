@@ -1,0 +1,53 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    padding: 5%;
+}
+
+ul{ 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    grid-template-columns: 1fr;
+}
+.bilder {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1px;
+}
+img{
+    max-width: 15vw;
+    max-height: 15vw;
+}
+
+
+
+.article-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr 1fr;
+}
+
+.article-container2{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr 1fr;
+}
+
+@media screen (min-width 300px)(max-width 600px); {
+    .bilder{
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1px;
+    }
+}
