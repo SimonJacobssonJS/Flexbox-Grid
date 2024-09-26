@@ -1,0 +1,22 @@
+body {
+padding: 0;
+margin: 0;
+
+}
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(100, 1fr);
+}
+
+nav{
+    grid-column: 1 / 10;
+    grid-row: 1 / 10;
+}
+
+header{
+    grid-column: 1 / 10;
+    grid-row: 10 / 20;
+}
+
